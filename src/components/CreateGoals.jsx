@@ -133,7 +133,7 @@ function CreateGoals({installNeeded, databaseCreated, goalsId, onGoalAdded, user
           <SpaceBetween>
             <OnBoardingText>
               <h1>2</h1>
-              <p>Now let's create the Open Sauced database on GitHub</p>
+              <p>Now let's create the Open Sauced database on GitHub for you!</p>
               <Tooltip delayDuration={200}>
                 <TooltipTrigger asChild disabled={!installReady || databaseCreated}>
                   <IconButton>
