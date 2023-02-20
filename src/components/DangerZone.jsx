@@ -26,7 +26,7 @@ function DangerZone({goalId, repoName, note}) {
         setModalOpen={setRemoveModalOpen}
       >
         <Card>
-          <h1>Confirm Removal</h1>
+          <h1>Confirm Removal of Repository</h1>
           <p>Are you sure you want to remove this repository from your dashboard: <strong>{repoName}?</strong></p>
           <Button primary onClick={_handleRepoRemoval}>Confirm</Button>
           &nbsp;&nbsp;
